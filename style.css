@@ -1,0 +1,157 @@
+body {
+    background-color: #f3f4f6;
+    background-image: url('img/Road.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    
+}
+    
+.RightEl {
+    font-family: 'Arial', sans-serif;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    opacity: 0;
+    transition: opacity 0.5s;
+    
+}
+
+.LeftEl {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    float: none;
+    
+    
+}
+
+#txtL {
+    text-align:left;
+}
+    
+
+#sliderContent {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+.rightContainer {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 40px;
+    width: 800px;
+    height: 75%;
+    text-align: center;
+    overflow: auto; /* —оздаем плавающую полосу прокрутки, если содержимое больше размеров контейнера */
+}
+
+
+.scrollingText {
+    width: 100%; /* Ўирина текста равна ширине контейнера */
+    white-space: pre-wrap; /* “екст не переноситс€ на новую строку */
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 60px;
+    margin-top:10px;
+}
+h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+h3 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+#arrivalDateTime{
+    border-color: lightgray;
+}
+
+#departureDateTime {
+    border-color: lightgray;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: medium;
+    border-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+#btn {
+    width: 180px;
+    margin-bottom:100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    btn:hover {
+        background-color: #45a049;
+    }
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
